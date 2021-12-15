@@ -49,6 +49,7 @@ In this repository, all necessary files are in place for building the OTF and TT
 For example, build a binary OTF font for the Regular style like this:
 
 ```sh
+$ pip3 install afdko
 $ cd Roman/Regular/
 $ makeotf -r
 ```
